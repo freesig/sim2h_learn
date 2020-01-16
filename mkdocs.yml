@@ -1,0 +1,26 @@
+site_name: Sim2h Learning
+
+# Theme
+theme:
+  name: 'material'
+  font:
+    text: 'Work Sans'
+    code: 'Roboto Mono'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - meta
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.tilde
+  - pymdownx.emoji
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.extra
+  - pymdownx.betterem
